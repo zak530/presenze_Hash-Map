@@ -36,4 +36,26 @@ public void incrementaPresenza(String nome) {
 
 
 
+    public String ilPiuPresente() {
+        String nomePiuPresente = null;
+        int maxPresenze = -1;
+
+        if(presenza.isEmpty()) {
+            return "Nessuna presenza registrata.";
+        }
+
+        else{
+
+        for (Map.Entry<String, Integer> entry : presenza.entrySet()) {
+            if (entry.getValue() > maxPresenze) {
+                maxPresenze = entry.getValue();
+                nomePiuPresente = entry.getKey();
+            }
+        }
+
+        return nomePiuPresente;
+    }
+    }
+
+
 }
