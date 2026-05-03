@@ -11,6 +11,9 @@ public class Main{
         gestione.incrementaPresenza("zak");
         gestione.incrementaPresenza("zak");
         gestione.incrementaPresenza("dadi");
+        System.out.println("Presenze di rota: " + gestione.ricavaPresenza("rota"));
+        System.out.println(gestione.visualizzaPresenze());
+        System.out.println("Piu presente: " + gestione.ilPiuPresente());
     }
 
 

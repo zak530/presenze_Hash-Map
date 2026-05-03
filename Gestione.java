@@ -58,4 +58,13 @@ public void incrementaPresenza(String nome) {
     }
 
 
+    public int ricavaPresenza(String nome) {
+        if (presenza.containsKey(nome)) {
+            return presenza.get(nome);
+        } else {
+            throw new IllegalArgumentException("Nessuna presenza registrata per " + nome);
+        }
+    }
+
+
 }
