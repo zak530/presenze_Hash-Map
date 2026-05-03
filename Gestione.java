@@ -26,6 +26,14 @@ public void incrementaPresenza(String nome) {
         }
     }
 
+     public String visualizzaPresenze() {
+        StringBuilder sb = new StringBuilder();
+         for (Map.Entry<String, Integer> entry : presenza.entrySet()) {
+            sb.append(entry.getKey()).append(": ").append(entry.getValue()).append("\n");
+        }
+        return sb.toString();
+    }
+
 
 
 }
