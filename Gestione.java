@@ -17,5 +17,15 @@ public class Gestione {
 }
 
 
+public void incrementaPresenza(String nome) {
+        if (presenza.containsKey(nome)) {
+            int count = presenza.get(nome);
+            presenza.put(nome, count + 1);
+        } else {
+            throw new IllegalArgumentException("Nessuna presenza registrata per " + nome);
+        }
+    }
+
+
 
 }
