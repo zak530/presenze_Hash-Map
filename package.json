@@ -1,0 +1,21 @@
+{
+  "name": "presenze_hash-map",
+  "version": "1.0.0",
+  "description": "Realizzare un programma Java che gestisca le presenze degli studenti in un corso, utilizzando una struttura della JCF basata su hash map.Si vuole sviluppare un sistema che tenga traccia del numero di presenze di ciascuno studente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zak530/presenze_Hash-Map.git"
+  },
+  "keywords": [],
+  "author": "Zakaria El Haiki",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zak530/presenze_Hash-Map/issues"
+  },
+  "homepage": "https://github.com/zak530/presenze_Hash-Map#readme"
+}
